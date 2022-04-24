@@ -2,3 +2,17 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.hide{
+  display: none;
+}
+
+#videos{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  iframe{
+    margin: 1em;
+  }
+}
